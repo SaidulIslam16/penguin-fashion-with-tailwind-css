@@ -22,6 +22,19 @@
 
 <body>
     <header class="bg-amber-50 pb-32 pt-10">
+        <nav class="container mx-auto flex justify-between items-center mb-8 px-3">
+            <div>
+                <img class="h-7" src="images/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex space-x-3">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Shopping</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <section class="container mx-auto sm:flex items-center justify-around px-3">
             <div class="details space-y-4">
                 <h1 class="text-3xl sm:text-6xl uppercase font-bold"><span class="text-yellow-500">Be the
@@ -49,7 +62,7 @@
 
         <section class="my-6">
             <h2 class="text-5xl font-bold">Women Jacket</h2>
-            <div class="grid grid-cols-3 gap-7">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-7">
                 <div class="p-5 shadow-lg rounded-lg">
                     <div class="bg-slate-400 rounded-lg">
                         <img src="images/jacket-1.png" alt="">
@@ -110,7 +123,7 @@
         <!-- men jacket section -->
         <section class="my-12">
             <h2 class="text-5xl font-bold">Men Jacket</h2>
-            <div class="grid grid-cols-3 gap-7">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-7">
                 <div class="p-5 shadow-lg rounded-lg">
                     <div class="bg-slate-400 rounded-lg">
                         <img src="images/jacket-4.png" alt="">
@@ -171,8 +184,8 @@
 
         <!-- Service Section -->
         <section class="container mx-auto px-3 my-32 ">
-            <div class="flex items-center gap-9">
-                <div class="w-1/2">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-9">
+                <div class="w-full sm:w-1/2">
                     <div class="flex items-center p-4 shadow-lg rounded-lg">
                         <div>
                             <img class="w-2/3" src="images/house.png" alt="">
@@ -201,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/2">
+                <div class="w-full sm:w-1/2">
                     <img class="w-full" src="images/shopping.png" alt="">
                 </div>
             </div>
